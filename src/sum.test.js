@@ -12,3 +12,7 @@ test('Deve somar números negativos corretamente', () => {
 test('Deve somar números mistos corretamente', () => {
   expect(somar(2, -3)).toBe(-1)
 })
+
+test('Deve somar números mistos corretamente', () => {
+  expect(somar(2, -4)).toBe(-2)
+})
